@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task App 2023</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+	<main>
+
+		<div class="app">
+
+			<header>
+				<h1>Your Todos</h1>
+				<button id="create"><strong> Add new todo</strong></button>
+			</header>
+
+			<div class="search-container">
+				<input type="text" id="searchInput" placeholder="Search tasks...">
+				<i class="material-icons" id="searchIcon">search</i>
+			  </div><br>
+			  <button id="voiceRecognitionButton">Start Voice Recognition</button>
+
+
+              <button id="sortButton">Sort Tasks</button><br><br>
+
+			  <!-- <label for="category">Category:</label> -->
+			  <div class = category-container>
+				<!-- <select id="category-select">  -->
+				  <!-- <option value="personal">Personal</option>
+				  <option value="work">Work</option>
+				  <option value="shopping">Shopping</option>
+				   Add more options as needed  -->
+				 </select>
+			  </div>
+			 <br> 
+
+
+			<div class="todo-list" id="list">
+
+				<!-- <div class="item">
+					<input type="checkbox" />
+					<input 
+						type="text" 
+						value="Todo content goes here" 
+						disabled />
+					<div class="actions">
+						<button class="material-icons">edit</button>
+						<button class="material-icons remove-btn">remove_circle</button>
+					</div>
+					
+				</div> -->
+			 <!-- <div class="overdue-text">Overdue by X days</div> -->
+
+			</div>
+
+			        
+			
+
+		</div>
+
+	</main>
+
+	<script src="script1.js"></script>
+</body>
+</html>
